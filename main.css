@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: fit-content;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    padding-top: 150px;
+}
+
+header {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 37px;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header h1 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+header button {
+    background:none;
+    border: none;
+}
+
+header img{
+    margin-right: 34px;
+    height: 20px;
+    width: 20px;
+}
+
+#menu-contatos, #form-menu {
+    border: 1px #B7B6B6 solid;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#menu-contatos {
+    width: 536px;
+    height: 589px;
+    background-color: #EBEBEB;
+}
+
+.lista-contatos {
+    overflow: auto;
+    height: 400px;
+    margin-top: 50px;
+}
+
+table {
+    margin-left: 50px;
+    justify-content: space-between;
+    width: 440px;
+    border-collapse: collapse; 
+}
+
+.lista-contatos table thead th {
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 26px;
+    position: sticky; 
+    top: 0px;
+    z-index: 1;
+    background-color: #EBEBEB;
+}
+
+
+table td {
+    font-weight: 300;
+    font-size: 14px;
+    padding: 10px 0;
+    padding-right: 35px;
+    color: #595959;
+    border-bottom: 1px #B7B6B6 solid;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 50px;
+}
+
+#form-menu {
+    width: 340px;
+    height: 305px;   
+    display: none; 
+    position: relative;
+    top: -440px;
+    left: 90px;
+    z-index: 2;
+    background-color: white;
+}
+
+#form-menu p {
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+form {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+form input, form button {
+    border-radius: 12px;
+    display: block;
+    margin-bottom: 26px;
+}
+
+form input {
+    padding: 10px;
+    width: 200px;
+    background-color: white;
+    border: 1px #B7B6B6 solid;
+    color: #B7B6B6;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: left;
+}
+
+form button {
+    padding: 10px;
+    width: 220px;
+    background-color: #5CD368;
+    color: white;
+    border: none;
+    font-weight: 200;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+
+

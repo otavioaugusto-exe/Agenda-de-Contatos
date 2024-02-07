@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <title agenda de contatos></title>
+</head>
+<body>
+    <div class="container">
+    <section id="menu-contatos">
+        <header>
+            <h1>agenda de contatos</h1>
+            <button id="btn-adicionar"><img src="Imagens/plus.svg"></button>
+        </header>
+        <div class="lista-contatos">
+            <table id="table-contatos">
+                <thead>
+                    <tr>
+                        <th>nome</th>
+                        <th>telefone</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </section>
+    <div id="form-menu">
+        <header>
+            <h1>adicionar contato</h1>
+            <button id="btn-fechar"><img src="Imagens/xmark.circle.svg"></button>
+        </header>
+        <form action="" id="form-adicionar">
+            <input type="text" name="nome" id="nome-contato" placeholder="nome">
+            <input type="tel" name="telefone" id="telefone-contato" placeholder="telefone">
+            <button type="submit" id="enviar-contato">adicionar</button>
+        </form>
+    </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
